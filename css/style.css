@@ -12,6 +12,7 @@ body {
     --text: #2e2f42;
     --section: #f4f4fd;
     --border: #E7E9FC;
+    --frame: #E7E9FC;
 }
 
 .list {
@@ -24,6 +25,27 @@ body {
 
 .address {
     font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
 }
 
 .page-btn {
@@ -38,6 +60,13 @@ body {
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    margin-top: 59px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+
 }
 
 .page-btn:hover {
@@ -63,16 +92,6 @@ body {
     text-transform: uppercase;
 }
 
-/* .web-logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    line-height: 1.17;
-    color: #4D5AE5;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-weight: 800
-} */
 
 .studio-logo {
     color: var(--text);
@@ -110,7 +129,16 @@ body {
     color: var(--btn);
 }
 
-.contact {
+.contact-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.contact-mail {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -126,19 +154,16 @@ body {
 .header {
     font-size: 56px;
     line-height: 1.07;
+    width: 496px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-/* .text-btn {
-    font-size: 16px;
-    line-height: 1.5;
-    ;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-} */
+
 
 .main-header {
     font-size: 20px;
@@ -146,13 +171,19 @@ body {
     letter-spacing: 0.02em;
     color: var(--text);
     font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    text-align: center;
 }
+
 
 .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 .page-header {
@@ -163,6 +194,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--text);
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .botn {
@@ -178,6 +210,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     cursor: pointer;
+    margin-bottom: 72px;
+
 }
 
 
@@ -200,6 +234,11 @@ body {
 
 .sec-page {
     background-color: var(--text);
+
+}
+
+.footer-page {
+    background-color: var(--text);
 }
 
 .sect {
@@ -208,6 +247,8 @@ body {
 
 .card {
     background-color: var(--white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* .header-text {
@@ -222,4 +263,94 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 16px;
+    width: 264px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15 px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+}
+
+.flex-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contacts-flex {
+    display: flex;
+    /* margin-left: auto; */
+}
+
+.header-ind {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.sec-page-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.section-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+}
+
+.flex-ul {
+    display: flex;
+    column-gap: 24px;
+
+}
+
+.sections-container {
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+
+.sect-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-page-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+
+}
+
+.flex-ul-portfolio {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.employees-list {
+    border: 1px solid var(--frame);
+    border-top: none;
 }
