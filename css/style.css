@@ -184,10 +184,10 @@ img {
 
 }
 
-.page-navigation {
+/* .page-navigation {
     padding: 24px 0;
 
-}
+} */
 
 .main-header {
     font-size: 20px;
@@ -334,7 +334,7 @@ img {
 
 .menu {
     display: flex;
-    /* column-gap: 40px; */
+    padding: 24px 0;
     gap: 40px;
 
 }
