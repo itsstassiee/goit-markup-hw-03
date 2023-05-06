@@ -303,6 +303,8 @@ img {
     display: flex;
     /* column-gap: 40px; */
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-flex {
@@ -341,7 +343,7 @@ img {
 .flex-ul {
     display: flex;
     /* column-gap: 24px; */
-
+    gap: 24px;
 }
 
 .sections {
@@ -372,13 +374,13 @@ img {
 
 .section-li {
     width: calc((100% - 72px) / 4);
-    column-gap: 24px;
+    /* column-gap: 24px; */
 
 }
 
 .sections-li {
-    width: calc((100%-48px)/3);
-    column-gap: 24px;
+    /* column-gap: 24px; */
+    width: calc((100% - 48px) / 3);
 }
 
 .contacts {
