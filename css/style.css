@@ -92,6 +92,8 @@ img {
     line-height: 1.17;
     text-decoration: none;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 
@@ -136,8 +138,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-left: auto;
-    margin-right: 40px;
+    /* margin-left: auto;
+    margin-right: 40px; */
 }
 
 .contact-mail {
@@ -147,6 +149,7 @@ img {
     color: var(--text-color);
 
 }
+
 
 .contact:hover,
 .contact:focus {
@@ -165,7 +168,10 @@ img {
 
 }
 
-
+.page-navigation {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .main-header {
     font-size: 20px;
@@ -243,10 +249,14 @@ img {
 
 .footer-page {
     background-color: var(--text);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sect {
     background-color: var(--section);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .card {
@@ -255,19 +265,13 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-/* .header-text {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-} */
+
 .text-footer {
     color: var(--section);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 16px;
+    max-width: 264px;
     width: 264px;
 }
 
@@ -301,12 +305,13 @@ img {
 
 .contacts-flex {
     display: flex;
+    column-gap: 24px;
     /* margin-left: auto; */
 }
 
 .header-ind {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
 }
 
 /* .sec-page-container {
@@ -317,10 +322,16 @@ img {
 /* } */
 
 
-.section-container {
+/* .section-container {
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
+} */
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 .flex-ul {
@@ -329,20 +340,10 @@ img {
 
 }
 
-.sections-container {
-    padding-top: 72px;
+.sections {
     padding-bottom: 120px;
 }
 
-.sect-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.footer-page-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .section-portfolio {
     padding-top: 96px;
@@ -363,4 +364,12 @@ img {
 
 .logo {
     margin-right: 76px;
+}
+
+.section-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.sections-li {
+    width: calc((100%-48px)/3);
 }
