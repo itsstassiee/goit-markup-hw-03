@@ -138,6 +138,11 @@ img {
     /* column-gap: 76px; */
 }
 
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
 .page-menu {
     font-size: 16px;
     line-height: 1.5;
@@ -146,8 +151,9 @@ img {
     font-weight: 500;
     padding: 24px 0;
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+
 }
 
 .page-menu:hover,
@@ -205,7 +211,7 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    padding: 188px 0;
+    /* padding: 188px 0; */
 
 }
 
