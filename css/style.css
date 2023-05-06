@@ -277,7 +277,7 @@ img {
     background-color: var(--text);
     padding-top: 188px;
     padding-bottom: 188px;
-
+    padding: 24px 0;
 }
 
 .footer-page {
@@ -334,7 +334,7 @@ img {
 
 .menu {
     display: flex;
-    padding: 24px 0;
+
     gap: 40px;
 
 }
