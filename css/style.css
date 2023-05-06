@@ -196,8 +196,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--text);
     font-weight: 500;
-    margin-bottom: 8px;
-    margin-top: 32px;
+
     /* text-align: center; */
 }
 
@@ -225,7 +224,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .page-header {
@@ -252,7 +251,7 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     cursor: pointer;
-    margin-bottom: 72px;
+    padding: 12px 24px;
 
 }
 
@@ -270,6 +269,7 @@ img {
     color: var(--white);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    border: 1px solid transparent;
 }
 
 
@@ -390,15 +390,25 @@ img {
 
 }
 
+.flex-ul-button {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .flex-ul-portfolio {
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
+
 }
 
 .employees-list {
-    border: 1px solid var(--frame);
+    border: 1px solid var(--border);
     border-top: none;
+    padding: 32px 16px
 }
 
 .logo-foot {
@@ -428,4 +438,8 @@ img {
 
 .card-section {
     padding: 32px 16px;
+}
+
+.li-portfolio {
+    width: calc((100% - 48px) / 3);
 }
