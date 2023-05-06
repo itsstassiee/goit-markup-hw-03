@@ -66,6 +66,8 @@ img {
     padding-top: 16px;
     padding-bottom: 16px;
     border: none;
+    min-width: 169px;
+    display: block;
 
 }
 
@@ -154,7 +156,7 @@ img {
 .header {
     font-size: 56px;
     line-height: 1.07;
-    width: 496px;
+    max-width: 496px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
@@ -234,6 +236,8 @@ img {
 
 .sec-page {
     background-color: var(--text);
+    padding-top: 188px;
+    padding-bottom: 188px;
 
 }
 
@@ -279,6 +283,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 
@@ -286,7 +291,7 @@ img {
 .main-nav {
     display: flex;
     align-items: center;
-    column-gap: 76px;
+    /* column-gap: 76px; */
 }
 
 .menu {
@@ -304,12 +309,13 @@ img {
     padding-bottom: 24px;
 }
 
-.sec-page-container {
+/* .sec-page-container {
     padding-top: 188px;
-    padding-bottom: 188px;
-    /* margin-left: auto;
+    padding-bottom: 188px; */
+/* margin-left: auto;
     margin-right: auto; */
-}
+/* } */
+
 
 .section-container {
     padding-top: 120px;
@@ -353,4 +359,8 @@ img {
 .employees-list {
     border: 1px solid var(--frame);
     border-top: none;
+}
+
+.logo {
+    margin-right: 76px;
 }
