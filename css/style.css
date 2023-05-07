@@ -106,8 +106,17 @@ img {
     margin-bottom: 72px;
 }
 
-
-
+.visually-hidden {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: 1px;
+}
 
 
 
@@ -124,7 +133,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 15px; */
 }
 
 .contact:hover,
@@ -167,6 +175,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--text-color);
     display: block;
+    padding: 24px 0;
 }
 
 .address {
